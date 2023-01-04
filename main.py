@@ -4,66 +4,66 @@ import matplotlib.pyplot as plt
 fig, ax = plt.subplots()
 
 
-# ip_address=[]
+ip_address=[]
 
-# plt.xlabel('IP Adressess')
-# plt.ylabel('Average Rating')
-# plt.title('Barplot')
-
-# try:
-#     for i in log:
-#         ip_address.append(i.split(' ')[0])
-
-# except UnicodeDecodeError:
-#     print()
-
-
-# ip_address_counter= Counter(ip_address)
-
-# result = {key:value for (key, value) in ip_address_counter.items() if value > 850}
-# print(result)
-# bar_colors = ['tab:red', 'tab:blue', 'tab:green',]
-
-# ip_address_counter= Counter(result)
-
-# print(ip_address)
-
-# plt.bar(ip_address_counter.keys(), ip_address_counter.values(), color=bar_colors)
-
-# plt.show()
-
-dates=[]
-plt.xlabel('Dates')
+plt.xlabel('IP Adressess')
 plt.ylabel('Average Rating')
 plt.title('Barplot')
 
-
 try:
     for i in log:
-        dates.append(i.split(' ')[3])
-        dates.append(i.split(':')[0])
+        ip_address.append(i.split(' ')[0])
 
 except UnicodeDecodeError:
     print()
 
 
+ip_address_counter= Counter(ip_address)
 
-
-dates_counter= Counter(dates)
-
-result = {key:value for (key, value) in dates_counter.items() if value > 500 }
+result = {key:value for (key, value) in ip_address_counter.items() if value > 850}
 print(result)
+bar_colors = ['tab:red', 'tab:blue', 'tab:green',]
 
+ip_address_counter= Counter(result)
 
-dates_counter= Counter(result)
+print(ip_address)
 
-print(dates)
-
-plt.bar(dates_counter.keys(), dates_counter.values())
-
-
+plt.bar(ip_address_counter.keys(), ip_address_counter.values(), color=bar_colors)
 
 plt.show()
+
+# dates=[]
+# plt.xlabel('Dates')
+# plt.ylabel('Average Rating')
+# plt.title('Barplot')
+
+
+# try:
+#     for i in log:
+#         dates.append(i.split(' ')[3])
+#         dates.append(i.split(':')[0])
+
+# except UnicodeDecodeError:
+#     print()
+
+
+
+
+# dates_counter= Counter(dates)
+
+# result = {key:value for (key, value) in dates_counter.items() if value > 500 }
+# print(result)
+
+
+# dates_counter= Counter(result)
+
+# print(dates)
+
+# plt.bar(dates_counter.keys(), dates_counter.values())
+
+
+
+# plt.show()
 
 
 

@@ -30,3 +30,19 @@ Based on my analysis, to increase our web traffic, we can…
 ____ web page was forwarded less so we can feature it on the main page more or provide links. 
 
 
+
+
+# Mine
+I analyzed the web server log from NASA_access_log_Jul95. See the graphs before to see what the information for the data collected. 
+
+
+## Graph __blank__ data
+
+The first thing I analyzed was the ___flow of traffic___ via the ___DNS addresses. A DNS is… and tells us...___. This is what I found: (Provide at least 3 things.) 
+piweba3y.prodigy.com visited the most. 
+We had __##__ dns’s visit only time.
+
+
+## Graph __blank__ data
+
+The second thing I analyzed was the ___web page visits___. Analying the date gives us a better understanding of….___ This is what I found: (Provide at least 3 things.) 
