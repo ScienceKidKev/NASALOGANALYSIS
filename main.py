@@ -4,33 +4,33 @@ import matplotlib.pyplot as plt
 fig, ax = plt.subplots()
 
 
-# ip_address=[]
+ip_address=[]
 
-# plt.xlabel('IP Adressess')
-# plt.ylabel('Frequency')
-# plt.title('Barplot')
+plt.xlabel('IP Adressess')
+plt.ylabel('Frequency')
+plt.title('Barplot')
 
-# try:
-#     for i in log:
-#         ip_address.append(i.split(' ')[0])
+try:
+    for i in log:
+        ip_address.append(i.split(' ')[0])
 
-# except UnicodeDecodeError:
-#     print()
+except UnicodeDecodeError:
+    print()
 
 
-# ip_address_counter= Counter(ip_address)
+ip_address_counter= Counter(ip_address)
 
-# result = {key:value for (key, value) in ip_address_counter.items() if value > 8000}
-# print(result)
-# bar_colors = ['tab:red', 'tab:blue', 'tab:green',]
+result = {key:value for (key, value) in ip_address_counter.items() if value > 8000}
+print(result)
+bar_colors = ['tab:red', 'tab:blue', 'tab:green',]
 
-# ip_address_counter= Counter(result)
+ip_address_counter= Counter(result)
 
-# print(ip_address)
+print(ip_address)
 
-# plt.bar(ip_address_counter.keys(), ip_address_counter.values(), color=bar_colors)
+plt.bar(ip_address_counter.keys(), ip_address_counter.values(), color=bar_colors)
 
-# plt.show()
+plt.show()
 
 dates=[]
 plt.xlabel('Dates')
