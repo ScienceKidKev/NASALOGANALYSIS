@@ -1,48 +1,20 @@
+ 
 # Introduction
-I analyzed the web server log from _month_ of _1995_. See the graphs before to see what the information for the data collected. 
-
-## Graph __blank__ data
-
-The first thing I analyzed was the ___flow of traffic___ via the ___DNS addresses. A DNS is… and tells us...___. This is what I found: (Provide at least 3 things.) 
-This __person/host__ visited the most. 
-We had __##__ dns’s visit only time.
-
-
-
-
-
-
-
-## Graph __blank__ data
-
-The second thing I analyzed was the ___web page visits___. Analying the ___time gives us a better understanding of….___ This is what I found: (Provide at least 3 things.) 
-
-
-
-
-
-
-
-
-
-## Suggestions
-Based on my analysis, to increase our web traffic, we can…
-____ web page was forwarded less so we can feature it on the main page more or provide links. 
-
-
-
-
-# Mine
 I analyzed the web server log from NASA_access_log_Jul95. See the graphs before to see what the information for the data collected. 
 
 
 ## Graph __blank__ data
 
-The first thing I analyzed was the ___flow of traffic___ via the ___DNS addresses. A DNS is… and tells us...___. This is what I found: (Provide at least 3 things.) 
+The first thing I analyzed was the flow of traffic via the frequency of DNS addresses. A DNS turns domain names into IP addresses, which allows browsers to get to websites and tells us whats happening on their network. This is what I found: 
 piweba3y.prodigy.com visited the most. 
-We had __##__ dns’s visit only time.
+Must users visited over 7500 times
 
 
 ## Graph __blank__ data
 
-The second thing I analyzed was the ___web page visits___. Analying the date gives us a better understanding of….___ This is what I found: (Provide at least 3 things.) 
+The second thing I analyzed was the web page visits dates. Analyzing the date gives us a better understanding of how often users access the web page This is what I found: 
+July 13 1995 had the most visits
+July 13 1995 had around 130000 visits
+July 28 1995 had the least visits
+
+
