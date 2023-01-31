@@ -40,7 +40,7 @@ plt.title('Barplot')
 
 try:
     for i in log:
-        dates.append(i.split(' ')[3].split(':')[0])
+        dates.append(i.split(' ')[3].split(':')[2])
 
 except UnicodeDecodeError:
     print(i)
